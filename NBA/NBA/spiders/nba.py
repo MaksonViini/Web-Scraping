@@ -9,9 +9,10 @@ class NbaSpider(scrapy.Spider):
         'https://www.nba.com/players'
     ]
 
+    # .//select[contains(@title, "Page Number Selection Drown Down List")] Xpath para o all
     def parse(self, response):
         for i in response.xpath('.//tbody//tr'):
-            
+
             player_first_name = str(i.xpath(
                 './/div[@class="flex flex-col lg:flex-row"]/p[1]//text()').get())
 
@@ -42,3 +43,9 @@ class NbaSpider(scrapy.Spider):
                 'last_attended': last_attended,
                 'country': country
             }
+
+            next_page = response.xpath(
+                '//button[contains(@title,"Next Page Button")]').get()
+
+            if next_page:
+                yield scrapy.Request(url=next_page, callback=self.parse)
