@@ -1,5 +1,7 @@
 import scrapy
-from scrapy.http import headers, request
+import json
+
+from scrapy.http import request
 
 
 class NtschoolsSpider(scrapy.Spider):
@@ -27,11 +29,30 @@ class NtschoolsSpider(scrapy.Spider):
 
     def parse(self, response):
         url = 'https://directory.ntschools.net/api/System/GetAllSchools'
-        request = scrapy.Request(
+        yield scrapy.Request(
             url, callback=self.parse_api, headers=self.headers)
 
-        yield request
-
-    
     def parse_api(self, response):
-        
+        base_url = 'https://directory.ntschools.net/api/System/GetSchool?itSchoolCode='
+        raw_data = response.body
+        data = json.loads(raw_data)
+
+        for school in data:
+            school_code = school['itSchoolCode']
+            school_url = base_url + school_code
+            request = scrapy.Request(
+                school_url, callback=self.parse_school, headers=self.headers)
+
+            yield request
+
+    def school_url(self, response):
+        raw_data = response.body
+        data = json.loads(raw_data)
+
+        yield {
+            'Name': data['name'],
+            'PhysicalAddress': data['physicalAddress']['displayAddress'],
+            'postalAddress': data['postalAddress']['displayAddress'],
+            'Email': data['mail'],
+            'PhoneNumber': data['telephoneNumber'],
+        }
