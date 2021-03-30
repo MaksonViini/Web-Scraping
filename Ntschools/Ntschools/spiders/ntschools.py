@@ -1,7 +1,6 @@
 import scrapy
 import json
 
-from scrapy.http import request
 
 
 class NtschoolsSpider(scrapy.Spider):
@@ -24,7 +23,8 @@ class NtschoolsSpider(scrapy.Spider):
         'Sec-Fetch-Dest': 'empty',
         'Sec-Fetch-Mode': 'cors',
         'Sec-Fetch-Site': 'same-origin',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63',
+        'X-Requested-With': 'Fetch'
     }
 
     def parse(self, response):
@@ -45,7 +45,7 @@ class NtschoolsSpider(scrapy.Spider):
 
             yield request
 
-    def school_url(self, response):
+    def parse_school(self, response):
         raw_data = response.body
         data = json.loads(raw_data)
 
