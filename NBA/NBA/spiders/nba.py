@@ -10,26 +10,27 @@ class NbaSpider(scrapy.Spider):
     ]
 
     def parse(self, response):
-        for x, i in enumerate(response.xpath('.//tr')):
-            player_first_name = response.xpath(
-                './/div[@class="flex flex-col lg:flex-row"]/p[1]//text()')[x].get()
+        for i in response.xpath('.//tbody//tr'):
+            
+            player_first_name = str(i.xpath(
+                './/div[@class="flex flex-col lg:flex-row"]/p[1]//text()').get())
 
-            player_last_name = response.xpath(
-                './/div[@class="flex flex-col lg:flex-row"]/p[2]//text()')[x].get()
+            player_last_name = str(i.xpath(
+                './/div[@class="flex flex-col lg:flex-row"]/p[2]//text()').get())
 
-            team = response.xpath('.//a[@class="t6"]//text()')[x].get()
+            team = i.xpath('.//a[@class="t6"]//text()').get()
 
-            number = response.xpath('.//td[3]//text()')[x].get()
+            number = i.xpath('.//td[3]//text()').get()
 
-            position = response.xpath('.//td[@class="text"]//text()')[1].get()
+            position = i.xpath('.//td[4]//text()').get()
 
-            heigth = response.xpath('.//td[5]//text()')[x].get()
+            heigth = i.xpath('.//td[5]//text()').get()
 
-            weigth = response.xpath('.//td[6]//text()')[x].get()
+            weigth = i.xpath('.//td[6]//text()').get()
 
-            last_attended = response.xpath('.//td[7]//text()')[x].get()
+            last_attended = i.xpath('.//td[7]//text()').get()
 
-            country = response.xpath('.//td[8]//text()')[x].get()
+            country = i.xpath('.//td[8]//text()').get()
 
             yield {
                 'player': player_first_name + ' ' + player_last_name,
