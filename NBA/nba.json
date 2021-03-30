@@ -1,0 +1,502 @@
+[
+    {
+        "player": "Precious Achiuwa",
+        "team": "MIA",
+        "number": "5",
+        "position": "F",
+        "heigth": "6-8",
+        "weigth": "225",
+        "last_attended": "Memphis",
+        "country": "Nigeria"
+    },
+    {
+        "player": "Jaylen Adams",
+        "team": null,
+        "number": null,
+        "position": "G",
+        "heigth": "6-0",
+        "weigth": "225",
+        "last_attended": "St. Bonaventure",
+        "country": "USA"
+    },
+    {
+        "player": "Steven Adams",
+        "team": "NOP",
+        "number": "12",
+        "position": "C",
+        "heigth": "6-11",
+        "weigth": "265",
+        "last_attended": "Pittsburgh",
+        "country": "New Zealand"
+    },
+    {
+        "player": "Bam Adebayo",
+        "team": "MIA",
+        "number": "13",
+        "position": "C-F",
+        "heigth": "6-9",
+        "weigth": "255",
+        "last_attended": "Kentucky",
+        "country": "USA"
+    },
+    {
+        "player": "LaMarcus Aldridge",
+        "team": "BKN",
+        "number": "12",
+        "position": "C-F",
+        "heigth": "6-11",
+        "weigth": "250",
+        "last_attended": "Texas",
+        "country": "USA"
+    },
+    {
+        "player": "Ty-Shon Alexander",
+        "team": "PHX",
+        "number": "0",
+        "position": "G",
+        "heigth": "6-3",
+        "weigth": "195",
+        "last_attended": "Creighton",
+        "country": "USA"
+    },
+    {
+        "player": "Nickeil Alexander-Walker",
+        "team": "NOP",
+        "number": "6",
+        "position": "G",
+        "heigth": "6-6",
+        "weigth": "205",
+        "last_attended": "Virginia Tech",
+        "country": "Canada"
+    },
+    {
+        "player": "Grayson Allen",
+        "team": "MEM",
+        "number": "3",
+        "position": "G",
+        "heigth": "6-4",
+        "weigth": "198",
+        "last_attended": "Duke",
+        "country": "USA"
+    },
+    {
+        "player": "Jarrett Allen",
+        "team": "CLE",
+        "number": "31",
+        "position": "C",
+        "heigth": "6-11",
+        "weigth": "243",
+        "last_attended": "Texas",
+        "country": "USA"
+    },
+    {
+        "player": "Al-Farouq Aminu",
+        "team": "CHI",
+        "number": "5",
+        "position": "F",
+        "heigth": "6-8",
+        "weigth": "220",
+        "last_attended": "Wake Forest",
+        "country": "USA"
+    },
+    {
+        "player": "Kyle Anderson",
+        "team": "MEM",
+        "number": "1",
+        "position": "F-G",
+        "heigth": "6-9",
+        "weigth": "230",
+        "last_attended": "UCLA",
+        "country": "USA"
+    },
+    {
+        "player": "Giannis Antetokounmpo",
+        "team": "MIL",
+        "number": "34",
+        "position": "F",
+        "heigth": "6-11",
+        "weigth": "242",
+        "last_attended": "Filathlitikos",
+        "country": "Greece"
+    },
+    {
+        "player": "Kostas Antetokounmpo",
+        "team": "LAL",
+        "number": "37",
+        "position": "F",
+        "heigth": "6-10",
+        "weigth": "200",
+        "last_attended": "Dayton",
+        "country": "Greece"
+    },
+    {
+        "player": "Thanasis Antetokounmpo",
+        "team": "MIL",
+        "number": "43",
+        "position": "F",
+        "heigth": "6-6",
+        "weigth": "219",
+        "last_attended": "Panathinaikos",
+        "country": "Greece"
+    },
+    {
+        "player": "Carmelo Anthony",
+        "team": "POR",
+        "number": "00",
+        "position": "F",
+        "heigth": "6-7",
+        "weigth": "238",
+        "last_attended": "Syracuse",
+        "country": "USA"
+    },
+    {
+        "player": "Cole Anthony",
+        "team": "ORL",
+        "number": "50",
+        "position": "G",
+        "heigth": "6-2",
+        "weigth": "185",
+        "last_attended": "North Carolina",
+        "country": "USA"
+    },
+    {
+        "player": "OG Anunoby",
+        "team": "TOR",
+        "number": "3",
+        "position": "F",
+        "heigth": "6-7",
+        "weigth": "232",
+        "last_attended": "Indiana",
+        "country": "United Kingdom"
+    },
+    {
+        "player": "Ryan Arcidiacono",
+        "team": "CHI",
+        "number": "51",
+        "position": "G",
+        "heigth": "6-3",
+        "weigth": "195",
+        "last_attended": "Villanova",
+        "country": "USA"
+    },
+    {
+        "player": "Trevor Ariza",
+        "team": "MIA",
+        "number": "8",
+        "position": "F",
+        "heigth": "6-8",
+        "weigth": "215",
+        "last_attended": "UCLA",
+        "country": "USA"
+    },
+    {
+        "player": "D.J. Augustin",
+        "team": "HOU",
+        "number": "14",
+        "position": "G",
+        "heigth": "5-11",
+        "weigth": "183",
+        "last_attended": "Texas",
+        "country": "USA"
+    },
+    {
+        "player": "Deni Avdija",
+        "team": "WAS",
+        "number": "9",
+        "position": "F",
+        "heigth": "6-9",
+        "weigth": "210",
+        "last_attended": "Maccabi Tel Aviv",
+        "country": "Israel"
+    },
+    {
+        "player": "Deandre Ayton",
+        "team": "PHX",
+        "number": "22",
+        "position": "C",
+        "heigth": "6-11",
+        "weigth": "250",
+        "last_attended": "Arizona",
+        "country": "Bahamas"
+    },
+    {
+        "player": "Udoka Azubuike",
+        "team": "UTA",
+        "number": "20",
+        "position": "C-F",
+        "heigth": "6-10",
+        "weigth": "280",
+        "last_attended": "Kansas",
+        "country": "Nigeria"
+    },
+    {
+        "player": "Dwayne Bacon",
+        "team": "ORL",
+        "number": "8",
+        "position": "G-F",
+        "heigth": "6-6",
+        "weigth": "221",
+        "last_attended": "Florida State",
+        "country": "USA"
+    },
+    {
+        "player": "Marvin Bagley III",
+        "team": "SAC",
+        "number": "35",
+        "position": "F",
+        "heigth": "6-11",
+        "weigth": "235",
+        "last_attended": "Duke",
+        "country": "USA"
+    },
+    {
+        "player": "LaMelo Ball",
+        "team": "CHA",
+        "number": "2",
+        "position": "G",
+        "heigth": "6-6",
+        "weigth": "180",
+        "last_attended": "Illawarra",
+        "country": "USA"
+    },
+    {
+        "player": "Lonzo Ball",
+        "team": "NOP",
+        "number": "2",
+        "position": "G",
+        "heigth": "6-6",
+        "weigth": "190",
+        "last_attended": "UCLA",
+        "country": "USA"
+    },
+    {
+        "player": "Mo Bamba",
+        "team": "ORL",
+        "number": "5",
+        "position": "C",
+        "heigth": "7-0",
+        "weigth": "231",
+        "last_attended": "Texas-Austin",
+        "country": "USA"
+    },
+    {
+        "player": "Desmond Bane",
+        "team": "MEM",
+        "number": "22",
+        "position": "G",
+        "heigth": "6-5",
+        "weigth": "215",
+        "last_attended": "TCU",
+        "country": "USA"
+    },
+    {
+        "player": "Harrison Barnes",
+        "team": "SAC",
+        "number": "40",
+        "position": "F",
+        "heigth": "6-8",
+        "weigth": "225",
+        "last_attended": "North Carolina",
+        "country": "USA"
+    },
+    {
+        "player": "RJ Barrett",
+        "team": "NYK",
+        "number": "9",
+        "position": "F-G",
+        "heigth": "6-6",
+        "weigth": "214",
+        "last_attended": "Duke",
+        "country": "Canada"
+    },
+    {
+        "player": "Will Barton",
+        "team": "DEN",
+        "number": "5",
+        "position": "G",
+        "heigth": "6-6",
+        "weigth": "181",
+        "last_attended": "Memphis",
+        "country": "USA"
+    },
+    {
+        "player": "Keita Bates-Diop",
+        "team": "SAS",
+        "number": "31",
+        "position": "F",
+        "heigth": "6-8",
+        "weigth": "229",
+        "last_attended": "Ohio State",
+        "country": "USA"
+    },
+    {
+        "player": "Nicolas Batum",
+        "team": "LAC",
+        "number": "33",
+        "position": "G-F",
+        "heigth": "6-8",
+        "weigth": "230",
+        "last_attended": "Le Mans",
+        "country": "France"
+    },
+    {
+        "player": "Aron Baynes",
+        "team": "TOR",
+        "number": "46",
+        "position": "C-F",
+        "heigth": "6-10",
+        "weigth": "260",
+        "last_attended": "Washington State",
+        "country": "Australia"
+    },
+    {
+        "player": "Kent Bazemore",
+        "team": "GSW",
+        "number": "26",
+        "position": "G-F",
+        "heigth": "6-4",
+        "weigth": "195",
+        "last_attended": "Old Dominion",
+        "country": "USA"
+    },
+    {
+        "player": "Darius Bazley",
+        "team": "OKC",
+        "number": "7",
+        "position": "F-G",
+        "heigth": "6-8",
+        "weigth": "208",
+        "last_attended": "Princeton HS (OH)",
+        "country": "USA"
+    },
+    {
+        "player": "Bradley Beal",
+        "team": "WAS",
+        "number": "3",
+        "position": "G",
+        "heigth": "6-3",
+        "weigth": "207",
+        "last_attended": "Florida",
+        "country": "USA"
+    },
+    {
+        "player": "Malik Beasley",
+        "team": "MIN",
+        "number": "5",
+        "position": "G",
+        "heigth": "6-4",
+        "weigth": "187",
+        "last_attended": "Florida State",
+        "country": "USA"
+    },
+    {
+        "player": "Jordan Bell",
+        "team": null,
+        "number": null,
+        "position": "F",
+        "heigth": "6-8",
+        "weigth": "216",
+        "last_attended": "Oregon",
+        "country": "USA"
+    },
+    {
+        "player": "DeAndre' Bembry",
+        "team": "TOR",
+        "number": "95",
+        "position": "G-F",
+        "heigth": "6-5",
+        "weigth": "210",
+        "last_attended": "St. Joseph's (PA)",
+        "country": "USA"
+    },
+    {
+        "player": "Davis Bertans",
+        "team": "WAS",
+        "number": "42",
+        "position": "F",
+        "heigth": "6-10",
+        "weigth": "225",
+        "last_attended": "Baskonia",
+        "country": "Latvia"
+    },
+    {
+        "player": "Patrick Beverley",
+        "team": "LAC",
+        "number": "21",
+        "position": "G",
+        "heigth": "6-1",
+        "weigth": "180",
+        "last_attended": "Arkansas",
+        "country": "USA"
+    },
+    {
+        "player": "Saddiq Bey",
+        "team": "DET",
+        "number": "41",
+        "position": "F",
+        "heigth": "6-7",
+        "weigth": "215",
+        "last_attended": "Villanova",
+        "country": "USA"
+    },
+    {
+        "player": "Tyler Bey",
+        "team": "DAL",
+        "number": "2",
+        "position": "F",
+        "heigth": "6-7",
+        "weigth": "215",
+        "last_attended": "Colorado",
+        "country": "USA"
+    },
+    {
+        "player": "Khem Birch",
+        "team": "ORL",
+        "number": "24",
+        "position": "C",
+        "heigth": "6-9",
+        "weigth": "233",
+        "last_attended": "UNLV",
+        "country": "Canada"
+    },
+    {
+        "player": "Goga Bitadze",
+        "team": "IND",
+        "number": "88",
+        "position": "C-F",
+        "heigth": "6-11",
+        "weigth": "250",
+        "last_attended": "Mega Basket",
+        "country": "Georgia"
+    },
+    {
+        "player": "Bismack Biyombo",
+        "team": "CHA",
+        "number": "8",
+        "position": "C",
+        "heigth": "6-8",
+        "weigth": "255",
+        "last_attended": "Baloncesto Fuenlabrada",
+        "country": "DRC"
+    },
+    {
+        "player": "Nemanja Bjelica",
+        "team": "MIA",
+        "number": "70",
+        "position": "F",
+        "heigth": "6-10",
+        "weigth": "234",
+        "last_attended": "Fenerbahce",
+        "country": "Serbia"
+    },
+    {
+        "player": "Eric Bledsoe",
+        "team": "NOP",
+        "number": "5",
+        "position": "G",
+        "heigth": "6-1",
+        "weigth": "214",
+        "last_attended": "Kentucky",
+        "country": "USA"
+    }
+]
