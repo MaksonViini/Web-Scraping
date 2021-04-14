@@ -12,23 +12,23 @@ class QconcursosSpider(scrapy.Spider):
 
     def parse(self, response):
         x = 1
-        # for i in response.xpath('//div[@class="js-question-item q-question-item"]'):
+        for i in response.xpath('//div[@class="js-question-item q-question-item"]'):
             # id_quest = i.xpath(
             #     '//span[@class="q-index js-question-index visible"]//text()').get()
 
-        id_quest = x
+            id_quest = x
 
-        enunciated = response.xpath(
-            '//div[@class="q-question-enunciation"]//text()').get()
+            enunciated = i.xpath(
+                '//div[@class="q-question-enunciation"]').get()
 
-        # questions = i.xpath()
+            # questions = i.xpath()
 
-        # answer = i.xpath()
-        x += 1
+            # answer = i.xpath()
+            x += 1
 
-        yield {
-            'id_quest': id_quest,
-            'enunciated': enunciated,
-            # 'questions': questions,
-            # 'answer': answer
-        }
+            yield {
+                'id_quest': id_quest,
+                'enunciated': enunciated,
+                # 'questions': questions,
+                # 'answer': answer
+            }
