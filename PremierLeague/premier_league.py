@@ -61,3 +61,4 @@ for i in range(1, 21):
 
 with open('PremierLeague/data_premier.json', 'w') as archive_json:
     archive_json.write(str(lista).replace('\'', '\"'))
+
