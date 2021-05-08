@@ -15,7 +15,7 @@ sleep(3)
 lista = []
 
 for i in range(1, 21):
-    teams = driver.find_element_by_xpath(
+    team = driver.find_element_by_xpath(
         f'//*[@id="classificacao__wrapper"]/article/section[1]/div/table[1]/tbody/tr['+str(i)+']/td[2]/strong').text
 
     points = driver.find_element_by_xpath(
@@ -46,7 +46,7 @@ for i in range(1, 21):
         '//*[@id="classificacao__wrapper"]/article/section[1]/div/table[2]/tbody/tr['+str(i)+']/td[9]').text
 
     data = {
-        'teams': teams,
+        'team': team,
         'points': points,
         'games': games,
         'victories': victories,
@@ -61,4 +61,3 @@ for i in range(1, 21):
 
 with open('PremierLeague/data_premier.json', 'w') as archive_json:
     archive_json.write(str(lista).replace('\'', '\"'))
-
