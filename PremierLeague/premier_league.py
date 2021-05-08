@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.edge.options import Options
 from time import sleep
-import json
+
 
 with open('path.txt', 'r') as arquivo:
     path = arquivo.read()
