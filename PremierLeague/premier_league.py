@@ -27,7 +27,7 @@ for i in range(1, 21):
     victories = driver.find_element_by_xpath(
         '//*[@id="classificacao__wrapper"]/article/section[1]/div/table[2]/tbody/tr['+str(i)+']/td[3]').text
 
-    empate = driver.find_element_by_xpath(
+    empates = driver.find_element_by_xpath(
         '//*[@id="classificacao__wrapper"]/article/section[1]/div/table[2]/tbody/tr['+str(i)+']/td[4]').text
 
     defeat = driver.find_element_by_xpath(
@@ -50,7 +50,7 @@ for i in range(1, 21):
         'points': points,
         'games': games,
         'victories': victories,
-        'empate': empate,
+        'empates': empates,
         'defeat': defeat,
         'goals_scored': goals_scored,
         'conceded_goals': conceded_goals,

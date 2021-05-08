@@ -1,10 +1,10 @@
 [
     {
-        "teams": "Manchester City",
+        "team": "Manchester City",
         "points": "81",
         "games": "35",
         "victories": "25",
-        "empate": "6",
+        "empates": "6",
         "defeat": "4",
         "goals_scored": "71",
         "conceded_goals": "24",
@@ -12,11 +12,11 @@
         "percentage_wins": "77.1"
     },
     {
-        "teams": "Manchester United",
+        "team": "Manchester United",
         "points": "67",
         "games": "33",
         "victories": "19",
-        "empate": "10",
+        "empates": "10",
         "defeat": "4",
         "goals_scored": "64",
         "conceded_goals": "35",
@@ -24,11 +24,11 @@
         "percentage_wins": "67.7"
     },
     {
-        "teams": "Leicester",
+        "team": "Leicester",
         "points": "63",
         "games": "35",
         "victories": "19",
-        "empate": "6",
+        "empates": "6",
         "defeat": "10",
         "goals_scored": "63",
         "conceded_goals": "43",
@@ -36,11 +36,11 @@
         "percentage_wins": "60"
     },
     {
-        "teams": "Chelsea",
+        "team": "Chelsea",
         "points": "62",
         "games": "35",
         "victories": "17",
-        "empate": "11",
+        "empates": "11",
         "defeat": "7",
         "goals_scored": "53",
         "conceded_goals": "31",
@@ -48,11 +48,11 @@
         "percentage_wins": "59"
     },
     {
-        "teams": "West Ham",
+        "team": "West Ham",
         "points": "58",
         "games": "34",
         "victories": "17",
-        "empate": "7",
+        "empates": "7",
         "defeat": "10",
         "goals_scored": "55",
         "conceded_goals": "44",
@@ -60,11 +60,11 @@
         "percentage_wins": "56.9"
     },
     {
-        "teams": "Tottenham",
+        "team": "Tottenham",
         "points": "56",
         "games": "35",
         "victories": "16",
-        "empate": "8",
+        "empates": "8",
         "defeat": "11",
         "goals_scored": "61",
         "conceded_goals": "41",
@@ -72,11 +72,11 @@
         "percentage_wins": "53.3"
     },
     {
-        "teams": "Liverpool",
+        "team": "Liverpool",
         "points": "54",
         "games": "33",
         "victories": "15",
-        "empate": "9",
+        "empates": "9",
         "defeat": "9",
         "goals_scored": "55",
         "conceded_goals": "39",
@@ -84,11 +84,11 @@
         "percentage_wins": "54.5"
     },
     {
-        "teams": "Everton",
+        "team": "Everton",
         "points": "52",
         "games": "33",
         "victories": "15",
-        "empate": "7",
+        "empates": "7",
         "defeat": "11",
         "goals_scored": "45",
         "conceded_goals": "42",
@@ -96,11 +96,11 @@
         "percentage_wins": "52.5"
     },
     {
-        "teams": "Leeds United",
+        "team": "Leeds United",
         "points": "50",
         "games": "35",
         "victories": "15",
-        "empate": "5",
+        "empates": "5",
         "defeat": "15",
         "goals_scored": "53",
         "conceded_goals": "53",
@@ -108,11 +108,11 @@
         "percentage_wins": "47.6"
     },
     {
-        "teams": "Arsenal",
+        "team": "Arsenal",
         "points": "49",
         "games": "34",
         "victories": "14",
-        "empate": "7",
+        "empates": "7",
         "defeat": "13",
         "goals_scored": "46",
         "conceded_goals": "37",
@@ -120,11 +120,11 @@
         "percentage_wins": "48"
     },
     {
-        "teams": "Aston Villa",
+        "team": "Aston Villa",
         "points": "48",
         "games": "33",
         "victories": "14",
-        "empate": "6",
+        "empates": "6",
         "defeat": "13",
         "goals_scored": "48",
         "conceded_goals": "38",
@@ -132,11 +132,11 @@
         "percentage_wins": "48.5"
     },
     {
-        "teams": "Wolverhampton",
+        "team": "Wolverhampton",
         "points": "42",
         "games": "34",
         "victories": "11",
-        "empate": "9",
+        "empates": "9",
         "defeat": "14",
         "goals_scored": "33",
         "conceded_goals": "46",
@@ -144,11 +144,11 @@
         "percentage_wins": "41.2"
     },
     {
-        "teams": "Newcastle",
+        "team": "Newcastle",
         "points": "39",
         "games": "35",
         "victories": "10",
-        "empate": "9",
+        "empates": "9",
         "defeat": "16",
         "goals_scored": "40",
         "conceded_goals": "58",
@@ -156,11 +156,11 @@
         "percentage_wins": "37.1"
     },
     {
-        "teams": "Crystal Palace",
+        "team": "Crystal Palace",
         "points": "38",
         "games": "33",
         "victories": "10",
-        "empate": "8",
+        "empates": "8",
         "defeat": "15",
         "goals_scored": "34",
         "conceded_goals": "56",
@@ -168,11 +168,11 @@
         "percentage_wins": "38.4"
     },
     {
-        "teams": "Brighton",
+        "team": "Brighton",
         "points": "37",
         "games": "34",
         "victories": "8",
-        "empate": "13",
+        "empates": "13",
         "defeat": "13",
         "goals_scored": "35",
         "conceded_goals": "39",
@@ -180,11 +180,11 @@
         "percentage_wins": "36.3"
     },
     {
-        "teams": "Southampton",
+        "team": "Southampton",
         "points": "37",
         "games": "33",
         "victories": "10",
-        "empate": "7",
+        "empates": "7",
         "defeat": "16",
         "goals_scored": "41",
         "conceded_goals": "59",
@@ -192,11 +192,11 @@
         "percentage_wins": "37.4"
     },
     {
-        "teams": "Burnley",
+        "team": "Burnley",
         "points": "36",
         "games": "34",
         "victories": "9",
-        "empate": "9",
+        "empates": "9",
         "defeat": "16",
         "goals_scored": "31",
         "conceded_goals": "47",
@@ -204,11 +204,11 @@
         "percentage_wins": "35.3"
     },
     {
-        "teams": "Fulham",
+        "team": "Fulham",
         "points": "27",
         "games": "34",
         "victories": "5",
-        "empate": "12",
+        "empates": "12",
         "defeat": "17",
         "goals_scored": "25",
         "conceded_goals": "45",
@@ -216,11 +216,11 @@
         "percentage_wins": "26.5"
     },
     {
-        "teams": "West Bromwich",
+        "team": "West Bromwich",
         "points": "26",
         "games": "34",
         "victories": "5",
-        "empate": "11",
+        "empates": "11",
         "defeat": "18",
         "goals_scored": "31",
         "conceded_goals": "65",
@@ -228,11 +228,11 @@
         "percentage_wins": "25.5"
     },
     {
-        "teams": "Sheffield United",
+        "team": "Sheffield United",
         "points": "17",
         "games": "34",
         "victories": "5",
-        "empate": "2",
+        "empates": "2",
         "defeat": "27",
         "goals_scored": "18",
         "conceded_goals": "60",
