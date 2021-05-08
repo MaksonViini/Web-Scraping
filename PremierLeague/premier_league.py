@@ -1,9 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.edge.options import Options
 from time import sleep
-import pandas as pd
 import json
-import requests
 
 with open('path.txt', 'r') as arquivo:
     path = arquivo.read()
@@ -51,13 +49,12 @@ for i in range(1, 10):
         'victories': victories,
         'empate': empate,
         'defeat': defeat,
-        # 'goals_scored': goals_scored,
-        # 'conceded_goals': conceded_goals,
-        # 'goal_difference': goal_difference,
-        # 'percentage_wins': percentage_wins
+        'goals_scored': goals_scored,
+        'conceded_goals': conceded_goals,
+        'goal_difference': goal_difference,
+        'percentage_wins': percentage_wins
     }
     lista.append(data)
 
-
-with open('data.json', 'w') as archive_json:
-    archive_json.write(str(lista))
+with open('PremierLeague/data_premier.json', 'w') as archive_json:
+    archive_json.write(str(lista).replace('\'', '\"'))
