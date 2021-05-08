@@ -13,14 +13,16 @@ driver.get(url)
 sleep(3)
 
 lista = []
-xpath = '//*[@id="classificacao__wrapper"]/article/section[1]/div/table[1]/tbody'
 
-for i in range(1, 10):
+for i in range(1, 21):
     teams = driver.find_element_by_xpath(
         f'//*[@id="classificacao__wrapper"]/article/section[1]/div/table[1]/tbody/tr['+str(i)+']/td[2]/strong').text
 
-    games = driver.find_element_by_xpath(
+    points = driver.find_element_by_xpath(
         '//*[@id="classificacao__wrapper"]/article/section[1]/div/table[2]/tbody/tr['+str(i)+']/td[1]').text
+
+    games = driver.find_element_by_xpath(
+        '//*[@id="classificacao__wrapper"]/article/section[1]/div/table[2]/tbody/tr['+str(i)+']/td[2]').text
 
     victories = driver.find_element_by_xpath(
         '//*[@id="classificacao__wrapper"]/article/section[1]/div/table[2]/tbody/tr['+str(i)+']/td[3]').text
@@ -45,6 +47,7 @@ for i in range(1, 10):
 
     data = {
         'teams': teams,
+        'points': points,
         'games': games,
         'victories': victories,
         'empate': empate,
